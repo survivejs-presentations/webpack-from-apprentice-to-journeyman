@@ -143,7 +143,7 @@ export default class Presentation extends React.Component {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\\.js$/,
         use: 'babel-loader',
         exclude: /node_modules/,
       },
@@ -210,7 +210,7 @@ export default class Presentation extends React.Component {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\\.js$/,
         use: 'babel-loader',
         exclude: /node_modules/,
       },
@@ -699,7 +699,7 @@ IE 8 # Or IE 8`}
   rules: [
     {
       // **Conditions**
-      test: /\.js$/, // Match files
+      test: /\\.js$/, // Match files
 
       // **Restrictions**
       include: path.join(__dirname, 'app'),
@@ -743,7 +743,7 @@ IE 8 # Or IE 8`}
           <CodePane lang="javascript">
         {`{
   // Conditions
-  test: /\.js$/,
+  test: /\\.js$/,
   enforce: 'pre', // 'post' too
 
   // Actions
@@ -771,7 +771,7 @@ import '!!url-loader!./bar.png';`}
           </Heading>
           <CodePane lang="javascript">
         {`{
-  test: /\.png$/,
+  test: /\\.png$/,
 
   oneOf: [
     {
@@ -793,11 +793,11 @@ import '!!url-loader!./bar.png';`}
           </Heading>
           <CodePane lang="javascript">
         {`{
-  test: /\.css$/,
+  test: /\\.css$/,
 
   rules: [
     {
-      issuer: /\.js$/, // Apply only to imports from js files
+      issuer: /\\.js$/, // Apply only to imports from js files
       use: 'style-loader',
     },
     'css-loader',
@@ -853,7 +853,7 @@ import '!!url-loader!./bar.png';`}
 function isVendor({ resource }) {
   return resource &&
     resource.indexOf('node_modules') >= 0 &&
-    resource.match(/\.js$/);
+    resource.match(/\\.js$/);
 }`}
           </CodePane>
           <List>
