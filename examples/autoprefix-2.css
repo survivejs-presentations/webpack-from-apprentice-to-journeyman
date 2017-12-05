@@ -1,0 +1,6 @@
+body {
+  background: cornsilk;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
