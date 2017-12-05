@@ -90,7 +90,7 @@ export default class Presentation extends React.Component {
               <ListItem>Bundle/code Splitting</ListItem>
             </Appear>
             <Appear>
-              <ListItem>Analysis and Troubleshooting</ListItem>
+              <ListItem>Build Analysis and Troubleshooting</ListItem>
             </Appear>
           </List>
         </Slide>
@@ -1237,7 +1237,7 @@ export default class Presentation extends React.Component {
               href="https://survivejs.com/webpack/optimizing/build-analysis/"
               textColor="white"
             >
-              Build Analysis
+              Build Analysis and Troubleshooting
             </Link>
           </Heading>
         </Slide>
