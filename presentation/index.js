@@ -60,6 +60,7 @@ const theme = createTheme({
   tertiary: "#09b5c4",
   quarternary: "rgba(255, 219, 169, 0.43)",
 });
+theme.screen.components.codePane.fontSize = "60%";
 
 export default class Presentation extends React.Component {
   render() {
