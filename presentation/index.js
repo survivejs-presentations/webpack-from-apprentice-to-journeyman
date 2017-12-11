@@ -630,6 +630,14 @@ export default class Presentation extends React.Component {
             <Appear>
               <ListItem>2. Examine source maps in the browser</ListItem>
             </Appear>
+            <Appear>
+              <ListItem>
+                3. Try out{" "}
+                <Link href="https://sokra.github.io/source-map-visualization/">
+                  source-map-visualization
+                </Link>
+              </ListItem>
+            </Appear>
           </List>
         </Slide>
 
